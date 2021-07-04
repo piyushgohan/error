@@ -7,12 +7,11 @@ import { useEffect } from 'react';
 const ProductGrid = (props) => {
 
     useEffect(()=>{
-      props.fetchData()
-    }, [props.fetchData])
+      props.fetchData();
+    }, [])
 
     return ( <div>
         <h1> This is Product Grid page</h1>
-            {console.log(props.products)}
     </div> );
 }
 

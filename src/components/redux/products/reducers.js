@@ -1,4 +1,6 @@
-import { FETCH_USER_FAILED, FETCH_USER_REQUEST, FETCH_USER_SUCCESS } from "./action_types";
+import { FETCH_USER_FAILED, 
+    FETCH_USER_REQUEST,
+    FETCH_USER_SUCCESS } from "./action_types";
 
 
 const initialProductState = {
